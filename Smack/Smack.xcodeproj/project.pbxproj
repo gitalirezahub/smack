@@ -17,6 +17,9 @@
 		FA790B4E21D65BBD00E570E4 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA790B4C21D65BBD00E570E4 /* SWRevealViewController.m */; };
 		FA790B5421D65FB700E570E4 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA790B5321D65FB700E570E4 /* ChatVC.swift */; };
 		FA790B5621D65FE300E570E4 /* ChannelVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA790B5521D65FE300E570E4 /* ChannelVC.swift */; };
+		FA790B5821D670C800E570E4 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA790B5721D670C800E570E4 /* GradientView.swift */; };
+		FA790B5B21D6BFBD00E570E4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA790B5A21D6BFBD00E570E4 /* Constants.swift */; };
+		FA790B5D21D6CB9C00E570E4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA790B5C21D6CB9C00E570E4 /* LoginVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +60,9 @@
 		FA790B4F21D65C0D00E570E4 /* Smack-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Smack-Bridging-Header.h"; sourceTree = "<group>"; };
 		FA790B5321D65FB700E570E4 /* ChatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
 		FA790B5521D65FE300E570E4 /* ChannelVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelVC.swift; sourceTree = "<group>"; };
+		FA790B5721D670C800E570E4 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		FA790B5A21D6BFBD00E570E4 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA790B5C21D6CB9C00E570E4 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +134,7 @@
 		FA77C22721D632BD00F9D086 /* Smack */ = {
 			isa = PBXGroup;
 			children = (
+				FA790B5921D6BF8800E570E4 /* Utilities */,
 				FA790B5021D65F7A00E570E4 /* Model */,
 				FA790B5121D65F8100E570E4 /* View */,
 				FA790B5221D65F8800E570E4 /* Controller */,
@@ -178,6 +185,7 @@
 		FA790B5121D65F8100E570E4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				FA790B5721D670C800E570E4 /* GradientView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -187,8 +195,17 @@
 			children = (
 				FA790B5321D65FB700E570E4 /* ChatVC.swift */,
 				FA790B5521D65FE300E570E4 /* ChannelVC.swift */,
+				FA790B5C21D6CB9C00E570E4 /* LoginVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		FA790B5921D6BF8800E570E4 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				FA790B5A21D6BFBD00E570E4 /* Constants.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -375,8 +392,11 @@
 			files = (
 				FA790B5621D65FE300E570E4 /* ChannelVC.swift in Sources */,
 				FA790B5421D65FB700E570E4 /* ChatVC.swift in Sources */,
+				FA790B5D21D6CB9C00E570E4 /* LoginVC.swift in Sources */,
+				FA790B5821D670C800E570E4 /* GradientView.swift in Sources */,
 				FA77C22921D632BD00F9D086 /* AppDelegate.swift in Sources */,
 				FA790B4E21D65BBD00E570E4 /* SWRevealViewController.m in Sources */,
+				FA790B5B21D6BFBD00E570E4 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
