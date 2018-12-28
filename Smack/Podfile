@@ -1,0 +1,7 @@
+platform :ios, '9.0'
+use_frameworks!
+target 'Smack' do
+   pod 'Alamofire'
+   pod 'SwiftyJSON'
+   pod 'Socket.IO-Client-Swift'
+end
